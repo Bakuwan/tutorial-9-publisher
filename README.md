@@ -11,3 +11,11 @@ URL “amqp://guest:guest@localhost:5672” yang sama pada publisher dan subscri
 ![image](static\images\image2.png)
 ![image](static\images\image1.png)
 ![image](static\images\image3.png)
+
+
+Spike yang terlihat di dashboard RabbitMQ berkaitan dengan publisher. Ketika publisher dijalankan, ia mengirimkan pesan-pesan ke message broker RabbitMQ dalam jumlah tertentu. Lonjakan pada grafik “Message rates” menandakan peningkatan jumlah pesan yang masuk ke broker pada waktu tersebut. Dengan kata lain, spike tersebut merepresentasikan volume pesan yang dikirim oleh publisher saat programnya berjalan. Setelah publisher selesai mengirim pesan, lonjakan tersebut akan menurun karena tidak ada lagi pesan baru yang masuk. 
+![image](static\images\image4.png)
+
+
+
+
