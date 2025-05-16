@@ -6,3 +6,8 @@ URL “amqp://guest:guest@localhost:5672” yang sama pada publisher dan subscri
 
 ### Running RabbitMQ as message broker.
 ![image](static\images\image.png)
+
+### Saat perintah ‘cargo run’ dijalankan pada publisher, publisher akan mengirimkan 5 event ke message broker. Event-event tersebut kemudian akan diterima dan diproses oleh subscriber.
+![image](static\images\image2.png)
+![image](static\images\image1.png)
+![image](static\images\image3.png)
